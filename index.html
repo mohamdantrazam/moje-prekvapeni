@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Moje překvapení ❤️</title>
+<style>
+body{margin:0;min-height:100vh;background:linear-gradient(145deg,#210d20,#793653);color:#fff0f5;font-family:Georgia,serif;text-align:center;padding:35px 20px;box-sizing:border-box}main{max-width:650px;margin:auto}h1{font-size:44px}p{font-size:19px;line-height:1.9}.card{padding:24px;border:1px solid #ffffff55;border-radius:20px;background:#ffffff10}.heart{font-size:42px;color:#ffc3d8}button{padding:13px 20px;border:0;border-radius:25px;background:#ffd2e0;color:#45162c;font-size:16px;margin:12px}#secret{display:none}.counter{font-size:24px;color:#ffd2e0}
+</style>
+</head>
+<body><main><div class="heart">♥</div><h1>Moje milé překvapení</h1><p>Některé chvíle stojí za to na ně čekat.</p><div class="card"><p>Chci, abys věděla, že tvoje štěstí pro mě opravdu hodně znamená.</p><p>Když jsi šťastná ty, mám radost i já. I když nás teď dělí vzdálenost, těším se na okamžik, kdy už mezi námi nebudou kilometry — jen my dva. ❤️</p><p>Už brzy se konečně uvidíme.</p></div><h2>Odpočítávání do našeho setkání</h2><div class="counter" id="count">Načítání…</div><button onclick="document.getElementById('secret').style.display='block'">Ještě jedno překvapení ♥</button><p id="secret">Jsem rád, že tě mám ve svém životě. Těším se na chvíle, které nás čekají. ❤️</p><p>Vytvořeno s láskou, jen pro tebe.</p></main><script>function tick(){let d=new Date("2026-11-01T18:00:00+01:00")-Date.now();if(d<=0){document.getElementById("count").textContent="Už je čas na naše setkání ❤️";return}let days=Math.floor(d/86400000),hours=Math.floor(d%86400000/3600000),mins=Math.floor(d%3600000/60000),secs=Math.floor(d%60000/1000);document.getElementById("count").textContent=days+" dní · "+hours+" hodin · "+mins+" minut · "+secs+" sekund"}tick();setInterval(tick,1000);</script></body></html>
